@@ -75,6 +75,7 @@ class Contato {
     const contato = await ContatoModel.findOneAndDelete({ _id: id });
     return contato;
   }
+  //olar
 }
 
 module.exports = Contato;
